@@ -29,9 +29,6 @@ if (userAgree) {
                 userWords[i] = userWords[i].toLowerCase()
                 userWords[i] = userWords[i].replace(userWords[i][0], userWords[i][0].toUpperCase())
             }
-            else {
-                console.log('defoult')
-            }
         }
         while (formatType !== 'uppercase' && formatType !== 'lowercase' && formatType !== 'capitalize')
     }
